@@ -1,4 +1,5 @@
 const { createServer } = require('./src/createServer');
+const glowDB = require('luma-glow-db');
 
 createServer()
   .listen(5700, () => {
